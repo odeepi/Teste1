@@ -1,0 +1,85 @@
+/* Seleciona o body e define a cor de fundo, a fonte e o tamanho da fonte */
+body {
+	background-color: #151721;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* Estiliza o cabeçalho, definindo a cor de fundo, cor do texto e espaçamento */
+header {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	background-color: #1b202e;
+	color: white;
+	padding: 10px;
+}
+
+/* Estiliza o título principal h1, definindo a cor e o alinhamento do texto */
+h1 {
+	* color: #4a4a4a;
+	text-align: center;
+}
+
+/* Estiliza as seções, definindo margens, cor de fundo e bordas */
+section {
+	border-radius: 10px;
+	margin: 20px;
+	background-color: #1b202e;
+	border: 1px solid #262d40;
+	padding: 10px;
+}
+
+p {
+	color: #ebebeb
+}
+
+h2 {
+	color: #ebebeb
+}
+
+/* Estiliza links, definindo a cor e removendo o sublinhado */
+a {
+	color: #00bfff;
+	text-decoration: none;
+}
+
+/* Estiliza a lista, definindo o tipo de lista, margens e preenchimento */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estiliza os itens da lista, definindo o espaçamento e cor */
+li {
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+
+footer {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	background-color: #1b202e;
+	color: white;
+	padding: 10px;
+}
+input[type="text"] {
+	background-color:  #1b202e;
+	decoration-type: none;
+	border: 0.5px solid #3b3b47;
+	border-radius: 5px;
+	color: white;
+}
+#deepi {
+	border-radius: 100px;
+	border: 0.5px solid #7f7f99;
+  
+}
+button {
+	background-color: #1b202e;
+	color: white;
+	border: 1px solid #2c2c4f;;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}

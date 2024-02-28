@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/Fonts/Poppins-Regular.ttf);;
+}
+body {
+    background-filter: blur(5px);
+    background-image: url('assets/loginback.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   font-family: Poppins-Regular, sans-serif;
+	font-size: 16px;
+	color: #ebebeb;
+}
+button {
+	font-family: Poppins-Regular, sans-serif;
+  margin: auto;
+	width: 100%;
+	height: 40px;
+	background-color: #474c59;
+	color: white;
+	border: 1px solid #2c2c4f;;
+	border-radius: 35px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+h5 {
+	border: 1px solid #4f4f6e;;
+	border-radius: 35px;
+	color: white;
+	text-align: center;
+}
+/*isso é a parte de logar*/
+.container {
+  margin-top: 50%;
+	width: 260px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #4f4f6e;
+  backdrop-filter: blur(5px);
+  border-radius: 35px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+  margin-top: 50%;
+  margin: auto;
+	width: 80%;
+	padding: 20px;
+	border: 1px solid #4f4f6e;
+	border-radius: 35px;
+  backdrop-filter: blur(5px);
+  }
+}
+#username {
+	background: none;
+	font-family: Poppins-Regular, sans-serif;
+	width: 90%;
+	height: 30px;
+	decoration-type: none;
+	border: none;
+	border-bottom: 1px solid #4f4f6e;
+	border-radius: 35px;
+	color: white;
+}
+#password {
+	background: none;
+	font-family: Poppins-Regular, sans-serif;
+	width: 90%;
+	height: 30px;
+	decoration-type: none;
+	border: none;
+	border-bottom: 1px solid #4f4f6e;
+	border-radius: 35px;
+	color: white;
+	decoration: none;
+}
+.container {
+	margin-top: 35%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+	.container {
+		margin-top: 50%;
+	}
+
+#username::placeholder,
+#password::placeholder {
+    font-family: Poppins-Regular, sans-serif;
+    color: #919191;
+}
