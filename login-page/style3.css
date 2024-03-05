@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins-Regular;
-  src: url('main/Fonts/Poppins-Regular.ttf');
+  src: url('Fonts/Poppins-Regular.ttf');
 }
 body {
     background-filter: blur(5px);
